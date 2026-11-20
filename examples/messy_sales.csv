@@ -1,0 +1,8 @@
+  Order ID ,  Order Date , Customer Name ,  Total Amount , Notes
+1001, 01/15/2025 ,  Alice   Smith ,"$1,250.50", First order
+1002, 2025-01-16 , Bob Jones , ($200.00) , Refund processed
+1001, 2025/01/15 , Alice Smith , $1250.50 , First order
+,,,,
+1003, 17-Jan-2025 , Carol Lee , EUR 450.25 , International
+1004, not-a-date , Dave Kim , N/A , Missing amount
+1005, Jan 20 2025 , Eve Patel , pending , Bad currency

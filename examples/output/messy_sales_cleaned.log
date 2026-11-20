@@ -1,0 +1,20 @@
+2026-11-20 17:22:31 [INFO] Loading input file: examples/messy_sales.csv
+2026-11-20 17:22:31 [WARNING] Row 1: Unable to parse date 'Alice Smith' in column 'Order Date'.
+2026-11-20 17:22:31 [WARNING] Row 2: Unable to parse date 'Bob Jones' in column 'Order Date'.
+2026-11-20 17:22:31 [WARNING] Row 3: Unable to parse date 'Alice Smith' in column 'Order Date'.
+2026-11-20 17:22:31 [WARNING] Row 4: Unable to parse date 'Carol Lee' in column 'Order Date'.
+2026-11-20 17:22:31 [WARNING] Row 5: Unable to parse date 'Dave Kim' in column 'Order Date'.
+2026-11-20 17:22:31 [WARNING] Row 6: Unable to parse date 'Eve Patel' in column 'Order Date'.
+2026-11-20 17:22:31 [WARNING] Row 1: Invalid currency value '250.50"' in column 'Total Amount'.
+2026-11-20 17:22:31 [WARNING] Row 2: Invalid currency value 'Refund processed' in column 'Total Amount'.
+2026-11-20 17:22:31 [WARNING] Row 3: Invalid currency value 'First order' in column 'Total Amount'.
+2026-11-20 17:22:31 [WARNING] Row 4: Invalid currency value 'International' in column 'Total Amount'.
+2026-11-20 17:22:31 [WARNING] Row 5: Invalid currency value 'Missing amount' in column 'Total Amount'.
+2026-11-20 17:22:31 [WARNING] Row 6: Invalid currency value 'Bad currency' in column 'Total Amount'.
+2026-11-20 17:22:31 [INFO] Cleaned 7 rows -> 6 rows (removed 1 empty, 0 duplicates, 12 validation errors) in 0.028s
+2026-11-20 17:22:31 [INFO] Saved Markdown summary report: examples/output/summary.md
+2026-11-20 17:22:44 [INFO] Loading input file: examples/messy_sales.csv
+2026-11-20 17:22:44 [WARNING] Row 5: Unable to parse date 'not-a-date' in column 'Order Date'.
+2026-11-20 17:22:44 [WARNING] Row 6: Invalid currency value 'pending' in column 'Total Amount'.
+2026-11-20 17:22:44 [INFO] Cleaned 7 rows -> 5 rows (removed 1 empty, 1 duplicates, 2 validation errors) in 0.010s
+2026-11-20 17:22:44 [INFO] Saved Markdown summary report: examples/output/summary.md

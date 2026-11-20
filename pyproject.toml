@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sheetclean"
+version = "0.1.0"
+description = "Automated CSV and Excel cleaning, validation, deduplication, and summary reporting CLI."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0.0",
+    "openpyxl>=3.1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+]
+
+[project.scripts]
+sheetclean = "sheetclean.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["sheetclean*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
